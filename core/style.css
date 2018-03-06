@@ -1,0 +1,40 @@
+@media (max-width:600px){td:nth-child(n+2),.fr,thead {display:none!important }table{width:100%!important;}}
+@media (min-width:601px){.hide {display:none }}
+#edit{;text-align:left}
+input{outline:none;max-width:90px;}
+body{paddig:0;margin:0;font-size:14px;font-family:"Lato";}
+td{width:150px;}
+#edit{padding:0;margin:0;font-size:14px;font-family:"Lato";}
+#main-form{margin-top:10px;text-align:center;width:200px;}
+.in{width:200px;max-width:200px;height:48px;border-radius:5px;}
+.in2{float:right;max-width:200px;}
+.row{width:200px;text-align:left;margin-bottom:10px;}
+.ok{margin:auto}
+#header {
+    
+    display: block;
+    position: fixed;
+    background: #fff;
+    overflow: hidden;
+    z-index: 1;
+    top:0;
+}
+table{border-spacing: 0;border:1px solid black;width:750px;}
+#header div {
+    display: table-cell;
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+thead {
+    background-color:white;
+    padding:5px
+}
+td, th,tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    
+}
